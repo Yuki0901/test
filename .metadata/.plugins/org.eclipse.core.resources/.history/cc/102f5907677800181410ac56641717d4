@@ -1,0 +1,11 @@
+package com.internousdev.webproj5.action;
+
+public class InquiryCompleteAction {
+
+	private String name;
+	private String qtype;
+	private String body;
+
+	List<InquiryDTO> InquiryDTOList = new ArrayList<InquiryDTO>();
+
+}

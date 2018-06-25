@@ -1,0 +1,15 @@
+package com.internousdev.webproj5.action;
+
+import java.util.ArrayList;
+
+import com.internousdev.webproj5.dto.LoginDTO;
+
+public class TestAction {
+
+	private String username;
+	private String password;
+	private List<LoginDTO> loginDTOList = new ArrayList<LoginDTO>();
+
+
+
+}

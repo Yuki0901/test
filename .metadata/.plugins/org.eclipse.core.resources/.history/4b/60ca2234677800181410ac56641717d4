@@ -1,0 +1,25 @@
+package com.internousdev.webproj5.action;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import com.internousdev.webproj5.dto.InquiryDTO;
+
+public class InquiryCompleteAction extends ActionSupport implements SessionAware{
+
+	private String name;
+	private String qtype;
+	private String body;
+
+	List<InquiryDTO> InquiryDTOList = new ArrayList<InquiryDTO>();
+	private Map<String, Object> session;
+
+	public String execute(){
+
+		String ret = ERROR;
+
+
+	}
+
+}
